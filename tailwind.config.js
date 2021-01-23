@@ -1,11 +1,12 @@
 module.exports = {
-  purge: [
-    './*.html',
-    './js/*.js',
-  ],
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        wine: "#470000"
+      }
+    },
   },
   variants: {
     extend: {},

@@ -1,0 +1,27 @@
+{
+  "name": "rocky-tad",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "postcss assets/css/style.css -o style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leroyrosales/rocky-tad-wedding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leroyrosales/rocky-tad-wedding/issues"
+  },
+  "homepage": "https://github.com/leroyrosales/rocky-tad-wedding#readme",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.0",
+    "autoprefixer": "^10.2.3",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}
