@@ -1,0 +1,45 @@
+
+@font-face {
+  font-family: fg;
+  font-weight: 300;
+  font-style: normal;
+  src: url(/font/FoundersGrotesk-Light.woff2) format("woff2"),
+    url(/font/FoundersGrotesk-Light.woff) format("woff");
+}
+@font-face {
+  font-family: fg;
+  font-weight: 500;
+  font-style: normal;
+  src: url(/font/FoundersGrotesk-Medium.woff2) format("woff2"),
+    url(/font/FoundersGrotesk-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: c;
+  font-weight: 500;
+  font-style: normal;
+  src: url(/font/Canela-Medium.woff2) format("woff2"),
+    url(/font/Canela-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: c;
+  font-weight: 700;
+  font-style: normal;
+  src: url(/font/Canela-Bold.woff2) format("woff2"),
+    url(/font/Canela-Bold.woff) format("woff");
+}
+body {
+  font-family: fg;
+  font-weight: 300;
+}
+h1 {
+  font-family: c;
+}
+#top {
+  background: url(/media/d/home/0.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
