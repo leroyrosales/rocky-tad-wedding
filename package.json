@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "postcss assets/css/style.css -o style.css"
+    "build": "postcss assets/css/style.css -o style.css",
+    "watch": "watch 'npm run build' ./"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "autoprefixer": "^10.2.3",
     "cssnano": "^4.1.10",
     "postcss-cli": "^8.3.1",
-    "tailwindcss": "^2.0.2"
+    "tailwindcss": "^2.0.2",
+    "watch": "^1.0.2"
   }
 }
